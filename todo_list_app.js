@@ -21,9 +21,9 @@ function displayTaskList() {
     }
 }
 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     displayTaskList();
-};
+});
 
 // Add new task
 function addTask() {
